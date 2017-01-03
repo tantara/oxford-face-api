@@ -3,7 +3,7 @@ Ruby gem for Microsoft Oxford Face api
 
 ### Usage
 
-```
+```ruby
 require 'oxford/face/api'
 
 KEY="YOUR_API_KEY" # from Microsoft Oxford
@@ -19,3 +19,7 @@ return_face_attributes = "age,gender"
 res = f.detect(img_url, return_face_id, return_face_landmarks, return_face_attributes)
 puts res.body # => https://gist.github.com/tantara/5d72786bd3c6acc285a29ec44c4a8d1e
 ```
+
+### License
+
+MIT
