@@ -15,7 +15,7 @@ module OxfordFaceApi
   class Face
 	def initialize
 	  raise if OxfordFaceApi.API_KEY.empty?
-	  @client = HttpClient.new(OxfordFaceApi.API_KEY, true)
+	  @client = HttpClient.new(OxfordFaceApi.API_KEY)
 	end
 
 	# Detect
